@@ -1,0 +1,125 @@
+body {
+  background-color: gray;
+  margin: 0 auto;
+}
+
+.container {
+
+}
+
+.header {
+  background: url(https://images.unsplash.com/photo-1420641606245-05c059de479a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=430a93bef5f05e15fef61ad4071125f6)
+  center;
+  max-height: 700px;
+  border: 4px solid black;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 60px;
+  padding: 400px 200px 100px 200px;
+  color: white;
+}
+
+.first {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 200px 20px 200px;
+  border: 4px solid black;
+  color: white;
+}
+.photo1 {
+  width: 388px;
+  border: 4px solid black;
+}
+
+.photo2 {
+  width: 388px;
+  border: 4px solid black;
+}
+
+.photo3 {
+  width: 388px;
+  border: 4px solid black;
+}
+
+.second {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 100px 20px 100px;
+  border: 4px solid black;
+  color: white;
+}
+
+.footer {
+    padding: 20px 190px 20px 190px;
+    border: 4px solid black;
+}
+
+.contact {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.number {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 500;
+  color: white;
+}
+
+.email {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.end {
+  font-size: 35px;
+  text-align: center;
+  border: 4px solid black;
+  color: white;
+}
+
+@media screen and (max-width: 768px){
+  .header h1 {
+    font-size: 45px;
+    padding: 60px;
+  }
+
+  .first {
+    font-size: 20px;
+    padding: 40px;
+  }
+
+  .second {
+    font-size: 20px;
+    padding: 40px;
+  }
+
+  .footer {
+    padding: 40px;
+  }
+
+  .contact {
+    font-size: 20px;
+  }
+
+  .number {
+    font-size: 20px;
+  }
+
+  .email {
+    font-size: 20px;
+  }
+
+  .end {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+}
