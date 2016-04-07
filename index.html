@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.scss">
   <meta charset="UTF-8">
 </head>
   <body>
@@ -22,7 +24,42 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="https://images.unsplash.com/photo-1452842290973-d0545e29bd18?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5ebdda51d81c5439ffdf68801e8b4669" alt="" >
+          </div>
+
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1438183972690-6d4658e3290e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1317ea2f1e55d032e93afea068cb13ce" alt="" >
+          </div>
+
+          <div class="item">
+            <img src="https://images.unsplash.com/reserve/DtE5FaWzSrOvwnFojEYg_Javier%20Calvo%20004_grande.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5d7095f7bd9948fe8b7d2d0cea4db1ee" alt="" >
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- <div class="row">
         <div class="col-xs-12 col-sm-12">
           <div class="row photos">
             <div class="col-xs-6 col-sm-4">
@@ -45,7 +82,7 @@
 
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
         <div class="col-sm-12">
